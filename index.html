@@ -1,0 +1,174 @@
+<html>
+     <head>
+    <title></title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+   nav{
+        text-decoration: none;
+        display: flex;
+       
+        }
+        .navbar-inverse{
+             background:#4d4d00;
+            padding-right: 15px;
+            padding-left: 15px;
+           position: fixed;
+            top: 0;
+            color: black;
+                        
+        }
+        .navar-brand{
+            font-size: 35px;
+            font-weight: 500;
+            font-family: Times New Roman;
+            color:  #ff0066;
+            margin;10px;
+            text-align: center;
+               text-decoration: none;
+        }
+        ul li{
+            
+            list-style: none; display: inline-block;
+            color: black;
+        }
+        li a{
+            color: black;
+             font-weight: bold;
+            margin-right: 15px;
+            align-content: flex-end;
+        }
+        .nav navbar-nav{
+            color:black;
+        }
+        .dropdown{
+            display: none;
+            position: absolute;
+        
+        }
+        
+   .dropdown:hover .dropdown-menu {
+    display: block;
+    }
+   .dropdown-menu li {
+    display: block;
+     }
+
+    .dropdown-menu li a {
+             color: red;
+    text-decoration: none;
+    }
+        .drop{
+            display: none;
+            position: absolute;
+        }
+        .drop:hover .dropdown-menu{
+            display: block;
+        }
+     .search-bar {
+            display: flex;
+            align-items: center;
+     margin: 10px;
+     margin-left: 40px;
+     margin-right: 40px;
+     border: 2px solid red;
+     height: 30px;
+     
+        }
+        .search-bar input{
+            border: 3px solid black:
+           color:black;
+                
+        }
+        .search-bar button {
+            background-color: #555;
+            color: white;
+             cursor: pointer;
+            font-style: italic; 
+        }
+        .drop button{
+            height: 50px;
+            width: 90px;
+            padding: 10px;
+            margin: 2px;
+            border-radius: 10px;
+            background-color: white;
+            text-align: center;
+            
+        }
+        .drop button a{
+            color: black;
+            font-weight:bold;
+            text-decoration: none;
+            text-align: center;
+        }
+    </style>
+    <body>
+        <nav class="navbar-inverse" style="position: sticky; top: 0;z-index: 1000px">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                </button>
+                <a class="navar-brand" href="#">Satish</a>
+            </div>
+            <div class="navbar-collapse collapse" id="mynavbar">
+            <ul class="nav navbar-nav" style="color: black;">
+                <li><a href="home.html">Home</a></li>
+              <li class="dropdown">
+            <a href="place.html">Places</a>
+            <ul class="dropdown-menu">
+                <li><a href="goa.html">Goa</a></li>
+                <li><a href="Rajsthan.html">Rajasthan</a></li>
+                <li><a href="#">ladakh</a></li>
+                <li><a href="#">Paris</a></li>
+                 <li><a href="#">kerala</a></li>
+            </ul>
+        </li>
+            <li><a href="Photho.html"> Gallery</a></li>
+                </ul></div>
+            <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+    </div>
+             <div class="navbar-collapse collapse" id="mynavbar">
+            <ul class="nav navbar-nav">
+               
+              <li class="dropdown">
+            <a href="#">Services</a>
+            <ul class="dropdown-menu">
+                <li><a href="staying.html">Staying</a></li>
+                <li><a href="Transport.html">Transportion</a></li>
+               
+            </ul>
+        </li>
+            <li><a href="contact.html"> contactus</a></li>
+             <li><a href="support.html"> support</a></li>
+                 <li class="drop">
+           <button><a href="#">SignIn</a></button> 
+            <ul class="dropdown-menu">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="Register.html">Register</a></li>
+                
+            </ul>
+        </li>
+                <li class="drop">
+           <button><a href="#">Signup</a></button> 
+            <ul class="dropdown-menu">
+                <li><a href="feedback.html">Feedbackpage</a></li>
+                <li><a href="logout.html">logout</a></li>
+                
+               </ul>
+             </li>
+          </ul></div>
+        </nav>
+        
+    </body>
+</html>
